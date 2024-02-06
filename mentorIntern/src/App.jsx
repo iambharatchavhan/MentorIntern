@@ -6,7 +6,9 @@ import PropsComponent from './components/Props'
 import ClassComp from "./components/ClassComponents/ClassComp"
 import Employee from './components/Employess'
 import Day2 from "./componentDay2/classComps/Day2"
-
+import CounterComponent from './componentDay2/classComps/CountUpdater'
+import StateDemo from './componentDay2/classComps/StatesDemo'
+import MyLifeComponent from './componentDay2/classComps/LifeCycleMethod'
 
 
 
@@ -18,13 +20,15 @@ function App() {
     <>
       <h1>SevenMentor</h1>
       <Day2 day="1"/>
-
       <DayFirst/>
       <StatesInClass/>
       <PropsComponent name="Bharat"/>
       <ClassComp name="Kara"/>
       <Employee name="Jon" id="x53" salary="$12000.00"/>
       <Day2 day="2"/>
+      {/* <CounterComponent/> */}
+      <StateDemo/>
+      <MyLifeComponent/>
       
        
     </>
