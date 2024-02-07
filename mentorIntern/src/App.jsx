@@ -9,7 +9,9 @@ import Day2 from "./componentDay2/classComps/Day2"
 import CounterComponent from './componentDay2/classComps/CountUpdater'
 import StateDemo from './componentDay2/classComps/StatesDemo'
 import MyLifeComponent from './componentDay2/classComps/LifeCycleMethod'
-
+import Day3Demo from './day3/class/day3'
+import LifeCycle3 from './day3/class/LifeCycle3'
+import Parent from './day3/class/Parant'
 
 
 
@@ -29,6 +31,11 @@ function App() {
       {/* <CounterComponent/> */}
       <StateDemo/>
       <MyLifeComponent/>
+      <Day2 day="3"/>
+      <Day3Demo/>
+      <LifeCycle3/>
+      <Parent/>
+
       
        
     </>

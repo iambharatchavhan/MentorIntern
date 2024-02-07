@@ -18,6 +18,7 @@ class MyLifeComponent extends Component {
       console.log('Count state has changed');
     }
   }
+  
 
   componentWillUnmount() {
     console.log('Component will unmount');
