@@ -1,0 +1,33 @@
+.counter-parent{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    gap: 2rem;
+    background: #D9EDBF;
+    border-radius: 5px;
+}
+.counter button{
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    background-color: green;
+    border-radius: 50%;
+
+}
+.counter button:last-child{
+    background-color: red;
+
+}
+.count{
+    color: black;
+}
+
