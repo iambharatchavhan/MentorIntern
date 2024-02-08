@@ -22,3 +22,33 @@
   background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
+
+.dayThree{
+  background-color: #feac5e;
+}
+.change-name{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dd61eb98;
+}
+.primary-button{
+   padding: 1rem 2rem;
+   border: none;
+   border-radius: 5px;
+   font-size: 1.2rem;
+   font-weight: 600;
+   background-color: #feac5e;
+}
+.employee-details{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+.details{
+  font-size: 1.1rem;
+  color: darkorange;
+}
