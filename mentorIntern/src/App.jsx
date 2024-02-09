@@ -19,6 +19,10 @@ import ChangeNameOnClick from './Day4/CHangeNameOnClick'
 import BgColor from './Day4/BgColor'
 import EmployeeDetails from './Day4/Fun/EmployeeDetails'
 import ParentTwo from './Assign/StateAndPrps'
+import Uncontrolled from './Day5/Controlled'
+import Controlled from './Day5/Controlled'
+import ControlledDif from './Day5/ControlledDif'
+import UsernamePassword from './Day5/UserNamePassword'
 
 
 function App() {
@@ -28,7 +32,7 @@ function App() {
     <>
       <h1>SevenMentors</h1>
       {/*
-      
+
       <Day2 day="1"/>
       <DayFirst/>
       <StatesInClass/>
@@ -45,18 +49,19 @@ function App() {
       <EvenDemo/>
       <BgColor/>
    <ParentTwo name="bharat" id="12" salary="5LPA"/> 
-     <Counter/>
-     <ChangeNameOnClick/>
-   <ParentTwo name="nilesh" id="55" salary="12LPA"/>  
+       <Counter/>
+       <ChangeNameOnClick/>
+       <ParentTwo name="nilesh" id="55" salary="12LPA"/>  
        <EmployeeDetails name="Nimesh Gala" id="T20" salary="12LPA"/>
-     <EmployeeDetails name="Yuraj Singh" id="T11" salary="10LPA"/>
-
-   
+     <EmployeeDetails name="Yuraj Singh" id="T11" salary="10LPA"/> 
+     
    */}
  
  <Day2 day="5"/>
-
- 
+{/* <Uncontrolled/> */}
+<Controlled/>
+<ControlledDif/>
+ <UsernamePassword/>
 
     
        
