@@ -23,6 +23,9 @@ import Uncontrolled from './Day5/Controlled'
 import Controlled from './Day5/Controlled'
 import ControlledDif from './Day5/ControlledDif'
 import UsernamePassword from './Day5/UserNamePassword'
+import ValidateForm from './Day6/FormValidation'
+import Destructuring from './Day6/Destructure'
+import List from './Day6/List'
 
 
 function App() {
@@ -57,11 +60,15 @@ function App() {
      
    */}
  
- <Day2 day="5"/>
-{/* <Uncontrolled/> */}
+ {/* <Day2 day="5"/>
+<Uncontrolled/>
 <Controlled/>
 <ControlledDif/>
- <UsernamePassword/>
+ <UsernamePassword/> */}
+ <Day2 Day2 day="6"/>
+ <ValidateForm/>
+ <Destructuring name="Nilesh" id="532"/>
+ <List/>
 
     
        
