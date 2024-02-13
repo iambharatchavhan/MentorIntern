@@ -52,3 +52,49 @@
   font-size: 1.1rem;
   color: darkorange;
 }
+
+.fruit-table{
+  width: 100%;
+  border: 1px solid black;
+}
+.fruit-table thead{
+  background-color: rgb(6, 105, 72);
+ 
+}
+.fruit-table thead tr th{
+  padding: .8rem;
+}
+
+.fruit-table tbody tr td{
+  padding: .5rem;
+  font-size: 1.1rem;
+}
+.fruit-table tbody tr:nth-child(even){
+   background-color: rgb(46, 46, 42);
+}
+
+.error-h1{
+  color: red;
+}
+
+.color-container{
+  border: 2px dotted rgb(255, 251, 0);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.btn-group button{
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  
+}

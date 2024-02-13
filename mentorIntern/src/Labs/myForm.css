@@ -1,0 +1,12 @@
+.my-table{
+    border: 1px solid rgb(228, 83, 0);
+    width: 100%;
+}
+.my-table tr th{
+    background-color:rgb(255, 208, 0);
+    color: #000;
+}
+.my-table tr td{
+    background-color: rgb(13, 65, 0);
+    font-size: 1.1rem;
+}

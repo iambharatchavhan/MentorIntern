@@ -30,8 +30,7 @@ const List = () => {
   return (
     <>
     <SingleFruit fruits={fruits}/>
-    
-    </>
+     </>
 
   )
 }
