@@ -7,10 +7,10 @@ import ColorFunction from '../Lab4/ColorFunction'
 const Day7 = () => {
   return (
     <>
-    {/* <Fruits/> */}
-    {/* <Day7Counter/>
+    <Fruits/>
+    <Day7Counter/>
     <String/>
-    <CounterFunComp/> */}
+    <CounterFunComp/>
     <ColorFunction/>
 
     </>
