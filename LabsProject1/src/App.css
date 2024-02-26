@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-heading{
+  background-color: black;
+  padding: 1rem;
+  border-radius:10px;
+  border: 1px dashed #fff;
+}
+
+.btn-primary{
+  padding: .8rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  background-color: #0175D9;
+  border: none;
+  cursor: pointer;
+}
+.lab-number{
+  border: 1px solid gray;
+  padding: 1rem;
+  background-color: #001F3F;
+}
