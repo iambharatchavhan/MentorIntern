@@ -1,0 +1,28 @@
+.isRender{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    width: 320px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 2px dashed rgba(54, 13, 13, 0.63);
+}
+
+.component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 200px;
+    padding: 1rem;
+
+}
+.component h3{
+    background-color: coral;
+    padding: .5rem;
+    border-radius: 10px;
+}
